@@ -18,11 +18,11 @@ import java.util.Properties;
 @EnableTransactionManagement
 public class JavaConfig {
     private static final String BEANS_PACKAGE = "web";
-    private static final String MYSQL_URL = "jdbc:mysql://localhost:3306/dataBase";
+    private static final String MYSQL_URL = "jdbc:mysql://localhost:3306/database";
     private static final String USER_NAME = "root";
     private static final String PASSWORD = "alexisakov2912";
     private static final String JDBC_DRIVER_CLASS = "com.mysql.cj.jdbc.Driver";
-    private static final String HB_PROP_DIALECT = "org.hibernate.dialect.MySQL8Dialect";
+    private static final String HB_PROP_DIALECT = "org.hibernate.dialect.MySQLDialect";
     private static final String HB_PROP_CURRENT_SESSION_CONTEXT_CLASS = "thread";
     private static final String HB_PROP_HBM2DDL_AUTO = "none";
     private static final String HB_PROP_SHOW_SQL = "false";
